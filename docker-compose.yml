@@ -20,8 +20,8 @@ services:
       - "3306:3306"  
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=test
-      - MYSQL_USER=test
-      - MYSQL_PASSWORD=test      
+      - MYSQL_DATABASE=cflow
+      - MYSQL_USER=cflow
+      - MYSQL_PASSWORD=formparser      
 volumes:
   database-data: {}    
